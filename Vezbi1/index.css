@@ -11,12 +11,11 @@
   line-height:30px;
   color:white;
 }
-td {
+th,td {
 text-align:center;
 }
 th {
   font-weight:bold;
-  text-align:center;
 }
 
 
