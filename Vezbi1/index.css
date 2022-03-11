@@ -4,11 +4,11 @@
 }
 
 #myBar {
-  width:100%;
+  width:10%;
   height:30px;
   background-color:#04AA6D;
   text-align:center;
-  line-heigt:30px;
+  line-height:30px;
   color:white;
 }
 
