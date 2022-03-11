@@ -11,10 +11,10 @@
   line-height:30px;
   color:white;
 }
-.table td {
+.table table-bordered td {
   text-align:center;
 }
-.table th{
+.table table-bordered th{
   font-weight:bold;
   text-align:center;
 }
