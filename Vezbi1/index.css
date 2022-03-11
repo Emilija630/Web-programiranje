@@ -11,7 +11,7 @@
   line-height:30px;
   color:white;
 }
-th, td {
+thead, td {
 text-align:center;
 }
 th {
