@@ -53,7 +53,66 @@
       </tr>
      </table>
        </div>
-    
+    <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputMovie">Movie title</label>
+      <input type="text" class="form-control" id="inputMovie">
+    </div>
+    <div class="form-group col-md-6">
+       <label for="inputGenre">Genre</label>
+      <select id="inputGenre" class="form-control">
+        <option selected>Choose a genre</option>
+        <option>...</option>
+      </select>
+    </div>
+      </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputDirector">Director</label>
+      <input type="text" class="form-control" id="inputDirector">
+    </div>
+  <div class="form-group">
+    <label for="inputWriter">Writer</label>
+    <input type="text" class="form-control" id="inputWriter">
+  </div>
+      <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputProducer">Producer</label>
+      <input type="text" class="form-control" id="inputProducer">
+    </div>
+      </div>
+       <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputWebsite">Website</label>
+      <input type="text" class="form-control" id="inputWebsite">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputYoutubeURL">Youtube trailer URL</label>
+      <input type="text" class="form-control" id="inputYoutubeURL">
+    </div>
+  </div>
+      <div class="form-group">
+      <label for="comment">Review</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <label>Rating</label>
+  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline1">Terrible</label>
+</div>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">Watchable</label>
+</div>
+      <div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">Best ever</label>
+</div>
+ 
+<button type="button" class="btn btn-danger">Cancel<span class="glyphicon glyphicon-remove"></span></button>
+<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span>Submit</button>
+</form>
   
   </div>  
 </body>
