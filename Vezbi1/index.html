@@ -4,10 +4,15 @@
   <title>Vezbi 1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial scale=1">
-  <link rel="stylesheet" href="index.css"/>
+  <link rel="stylesheet" href="index.css" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+      th{
+          text-align: center;
+      }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -23,39 +28,42 @@
       <div id="myBar">80% Complete</div>
     </div>
   <h2>Задача 4 - Креирање на табела</h2>
-   <div class="table-responsive">
-     <table class="table table-bordered">
-       <thead>
+  <div class="table-responsive">          
+    <table class="table table-bordered">
+      <thead>
         <tr>
-        <th colspan="2">Месеци и часови</th>
-        <th>Денови</th>
-        <th>Име</th>
-        <th>Презиме</th>
+          <th colspan="2" >Месеци и часови</th>
+          <th>Денови</th>
+          <th>Име</th>
+          <th>Презиме</th>
         </tr>
-       </thead>
-      <tr class="table-success">
-        <td>Април</td>
-        <td>100</td>
-        <td>2</td>
-        <td>Стефан</td>
-        <td>Стефаноски</td>
-      </tr>
-      <tr>
-        <td>Мај</td>
-        <td>45</td>
-        <td>1</td>
-        <td>Петко</td>
-        <td>Петкоски</td>
-      </tr>
-      <tr>
-        <td>Јули</td>
-        <td>120</td>
-        <td>4</td>
-        <td colspan="2">Нема информации</td>
-      </tr>
-     </table>
-       </div>
+      </thead>
+      <tbody>
+        <tr class="success">
+            <td>Април</td>
+            <td>100</td>
+            <td>2</td>
+            <td>Стефан</td>
+            <td>Стефаноски</td>
+          </tr>
+        <tr>
+          <td>Мај</td>
+          <td>45</td>
+          <td>1</td>
+          <td>Петко</td>
+          <td>Петкоски</td>
+        </tr>
+        <tr>
+            <td>Јули</td>
+            <td>120</td>
+            <td>4</td>
+            <td colspan="2">Нема информација</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
     <form>
+        <h2>Задача 6 - Креирање на форма</h2>
   <div class="form-row">
     <div class="form-group col-md-8">
       <label for="inputMovie">Movie title</label>
@@ -70,36 +78,40 @@
     </div>
       </div>
     <div class="form-row">
-     <div class="col-md-4">
-      <label for="validationDefault03">Director</label>
-      <input type="text" class="form-control" id="validationDefault03">
+     <div class="form-group col-md-4">
+      <label for="inputDirector">Director</label>
+      <input type="text" class="form-control" id="inputDirector">
     </div>
-    <div class="col-md-4">
-      <label for="validationDefault04">Writer</label>
-      <input type="text" class="form-control" id="validationDefault04">
+    <div class="form-group col-md-4">
+      <label for="inputWriter">Writer</label>
+      <input type="text" class="form-control" id="inputWriter">
     </div>
-    <div class="col-md-4">
-      <label for="validationDefault05">Producer</label>
-      <input type="text" class="form-control" id="validationDefault05">
+    <div class="form-group col-md-4">
+      <label for="inputProducer">Producer</label>
+      <input type="text" class="form-control" id="inputProducer">
     </div>
      </div>
-       <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputWebsite">Website</label>
-      <input type="text" class="form-control" id="inputWebsite">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputYoutubeURL">Youtube trailer URL</label>
-      <input type="url" class="form-control" id="inputYoutubeURL">
-    </div>
-  </div>
+     <div class="form-row">
+        <div class="form-group col-md-6">
+         <label for="inputWebsite">Website</label>
+         <input type="text" class="form-control" id="inputWebsite">
+       </div>
+       <div class="form-group col-md-6">
+         <label for="inputYoutubeUrl">Youtube trailer URL</label>
+         <input type="url" class="form-control" id="inputYoutubeUrl">
+       </div>
+     </div>
+    
+  
       <div class="form-group col-md-12">
       <label for="comment">Review</label>
       <textarea class="form-control" rows="5" id="comment"></textarea>
     </div>
       
-      <div class="form-row">
-      <label class="radio-inline"> Rating <br>
+    <div class="form-group"> 
+        <label for="sel1">Rating</label>
+        <div class="form-row">
+    <label class="radio-inline">
       <input type="radio" name="optradio" checked>Terrible
     </label>
     <label class="radio-inline">
@@ -107,11 +119,14 @@
     <label class="radio-inline">
       <input type="radio" name="optradio">Best ever
     </label>
-  </div>
+    </div>
+    </div>
+     
+  
  <div class="form-row">
 <button type="button" class="btn btn-danger">Cancel <span class="glyphicon glyphicon-remove"></span></button>
 <button type="button" class="btn btn-success">Submit <span class="glyphicon glyphicon-ok"></span></button>
-  </div>
+ </div>
 </form>
   
   </div>  
