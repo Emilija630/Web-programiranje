@@ -1,21 +1,18 @@
 #myProgress {
-  width:100%;
-  background-color:#ddd;
-}
-
-#myBar {
-  width:80%;
-  height:30px;
-  background-color:#0c00b2;
-  text-align:center;
-  line-height:30px;
-  color:white;
+    width:100%;
+    background-color:#ddd;
+  }
   
-  td {
-  text-align:center;
-}
-th{
-  font-weight:bold;
+  #myBar {
+    width:80%;
+    height:30px;
+    background-color:#0c00b2;
+    text-align:center;
+    line-height:30px;
+    color:white;
+  }
+td, th{
+    text-align: center;
 }
 
 
